@@ -19,9 +19,9 @@ Internet connection
 
 2) Install dependencies: Navigate to the "weather-check_backend" directory and run "npm install". This will read the package.json file and install Express and Axios in your local node_modules directory 
 
-3) While still at the "weather-check_backend" directory, using a text editor, open server.js and add your openweathermap API key on line 9
+3) While still within the "weather-check_backend" directory, using a text editor, open server.js and add your openweathermap API key on line 9
 
 # How to run
-While at the weather-check_backend folder, start the server by typing: node server.js 
+While within the weather-check_backend folder, start the server by typing: node server.js 
 
 Open a browser and navigate to http://localhost:3000
