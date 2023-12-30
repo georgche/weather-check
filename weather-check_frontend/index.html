@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Checker</title>
+    <!-- Link to the CSS file (style.css) for styling the webpage -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- Container for all page's content -->
+    <div class="container">
+        <h1>Weather Checker</h1>
+
+        <!-- Form for user input to fetch the reuested weather data -->
+        <form id="weatherForm">
+            <!-- User input for entering the city name -->
+            <input type="text" id="cityName" placeholder="Please enter city name">
+            <!-- Submit button to trigger weather data fetch -->
+            <button type="submit">Get Weather!</button>
+        </form>
+
+        <!-- Div to display the current weather data -->
+        <div id="weatherResult"></div>
+
+        <!-- Div to display the weather forecast for the chosen city -->
+        <div id="forecastResult" style="display: none;">
+            <h2>Weather Forecast</h2>
+            <!-- Div to populate with forecast data -->
+            <div id="forecast"></div>
+        </div>
+    </div>
+
+    <!-- Link to the Javascript file -->
+    <script src="script.js"></script>
+</body>
+</html>

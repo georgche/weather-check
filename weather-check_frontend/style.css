@@ -1,0 +1,66 @@
+/* Body style */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center; 
+    background-color: #f5f5f5fe; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    margin: 0;
+}
+
+/* Style for the main container */
+.container {
+    background-color: #c4b86757;
+    border: 2px solid black; 
+    border-radius: 15px; 
+    padding: 20px; 
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-width: 800px; 
+    width: 100%; 
+}
+
+/* Style for the current weather and the forecast data results */
+#weatherResult, #forecastResult {
+    margin-top: 20px; 
+}
+
+/* Styles for different temperatures ranges */
+.temp-cold {
+    color: rgba(0, 0, 255, 0.9); /* Blue colour for colder temperatures */
+}
+
+.temp-mild {
+    color: rgb(1, 108, 1); /* Green colour for milder temperatures */
+}
+
+.temp-warm {
+    color: rgb(255, 170, 0); /* Orange colour for warmer temperatures */
+}
+
+.temp-hot {
+    color: rgba(255, 0, 0, 0.906); /* Red colour for hotter temperatures */
+}
+
+/* Responsive design for medium screens (up to 600px wide) */
+@media (max-width: 600px) {
+    .container {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    h1, h2 {
+        font-size: 1.2rem; 
+    }
+
+    img {
+        width: 50px; 
+        height: auto;
+    }
+
+    #weatherResult p, #forecastResult p {
+        font-size: 0.9rem; 
+    }
+}
